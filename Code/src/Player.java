@@ -1,11 +1,15 @@
 
 public class Player {
 	
+	
+	//Here we have variables describing the player
 	private String name;
 	private int wealth;
 	private double popularity;
 	public String partyname;
 	
+	
+	//Getters and Setters are below (which basically do just that - get and set variable values)
 	public int getWealth(){
 		return wealth;
 	}
